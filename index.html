@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RealEsatate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .jumbotron .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: #000 url("2.jpg") ;
+    top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+  .abc
+  {
+    background-color: blanchedalmond;
+   text-align: center;
+   letter-spacing: 5px;
+  }
+  .c
+  {
+    background-color: blanchedalmond;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .l
+  {
+    word-spacing: 5556px;
+    text-align: center;
+  }
+  .btn-group-justified
+  {
+    word-spacing: 520px;
+  }
+  #example{
+    background-repeat: repeat-x;    
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+#example .but1{    
+   
+    line-height: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    display:inline-block;
+    position:relative;
+}
+
+#example .but1 a {
+    position:absolute;
+    top: 5px;
+    left: 5px;
+}
+.row
+{
+  background-color: lightblue;
+}
+.ay
+{
+  background-color: skyblue;
+}
+.zay
+{background-color: dodgerblue;
+
+}
+.ayay
+{
+background-color: green;
+}
+.aya
+{
+  background-color:gold;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.marquee {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #fefefe;
+            color: #333;
+            border: 1px solid #4a4a4a;
+        }
+
+
+.bn
+
+{
+  background-color: hotpink;
+}
+.jumbotron.card.card-image
+{
+background-image: url(m.jpg);
+
+background-size: cover;
+}
+.abc
+{
+  text-align: left-center;
+}
+body {
+  /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+
+ </style>
+
+  
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<div class="container">
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">HOME<span class="caret"></span></button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    </button>
+    <div class="dropdown-menu">
+      <div class="zay">
+      <a class="dropdown-item" href="#" tabindex="-1">BLOG</a>
+      <a class="dropdown-item" href="#" tabindex="-1">ACHIVMENTS</a>
+    </div>
+  </div>
+  </div>
+  
+  
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-success">contact-us</button>
+    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    </button>
+    <div class="dropdown-menu">
+      <div class="ayay">
+      <a class="dropdown-item" href="#">EMAIL</a>
+      <a class="dropdown-item" href="#">TELEPHONE NUMBER</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-info">LOGIN</button>
+    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    </button>
+    <div class="dropdown-menu">
+      <div class="ay">
+      <a class="dropdown-item" href="loginuser.php">LOGIN-USER</a>
+      <a class="dropdown-item" href="loginuser">LOGIN-BUILDER</a>
+    </div>
+    </div>
+  </div>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-warning">REGISTER</button>
+    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    </button>
+    <div class="dropdown-menu">
+      <div class="aya">
+      <a class="dropdown-item" href="regestie.php ">REGISTER-USER</a>
+      <a class="dropdown-item" href="reg_builder.php">REGISTER-BULIDER</a>
+    </div>
+  </div>
+  </div>
+
+</div>
+</nav>
+<div class="jumbotron">
+<div class="img">
+  </div>
+ <marquee position="relative" scrolldelay="30" truespeed="30"> <h1><font size="25px" face="algerian" color="blue">WELCOME TO REAL ESTATE PVT LTD.</font></h1></marquee>
+  <p></p> 
+</div>
+
+
+<div class="abc">
+  <h1>YHAN SE ZADA ACHI PROPERTY KHIN NHI MILEGI</h1>
+
+</div>
+<div class="c">
+   <h2>AAPKE BUDGET MAI AAYIE AUR HAME AZMAIYE</h2>
+</div>
+<div>
+  <hr>
+</div>
+
+
+<section class="services-section spad set-bg" data-setbg="img/service-bg.jpg">
+    <div class="container1">
+      <div class="row">
+        <div class="col-lg-6">        
+          <img src="img/service.jpg" width="80%">
+        </div>
+        <div class="col-lg-5 offset-lg-1 pl-lg-0">
+          <div class="section-title text-white">
+            
+            <h3><font color="blue">OUR SERVICES</font></h3>
+            <p><font color="blue">We provide the perfect service for</font></p>
+          </div>
+          <div class="services">
+            <div class="service-item">
+            <i class="fa fa-comments"></i>
+                <div class="service-text">
+                <h5><font color="blue">Consultant Service</font></h5>
+                <p><font color="blue">We provide you with the best services which is best for your family and which suits your pocket.</font></p>
+              </div>
+            </div>
+            <div class="service-item">
+              <i class="fa fa-home"></i>
+              <div class="service-text">
+                <h5><font color="blue">Properties Management</font></h5>
+                <p><font color="blue">We manage your property considering as our own and give you the best possible solution regarding it.</font></p>
+              </div>
+            </div>
+            <div class="service-item">
+              <i class="fa fa-briefcase"></i>
+              <div class="service-text">
+                <h5><font color="blue">Renting and Selling</font></h5>
+                <p><font color="blue">Enjoy various services provided by us without any mid-man, Book your dream home today!.</font></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="ay.jpg" alt="Cinque Terre" width="600" height="550">
+    </a>
+    <div class="desc">OMAXE CITY,LUCKNOW</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ay1.jpg">
+      <img src="ay1.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">AMBANI REAL=ESTATE,LUCKNOW</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="ay2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">BIRLA CITY,LUCKNOW</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="ayay.jpg" alt="Northern Lights" width="600" height="350">
+    </a>
+    <div class="desc">DLF GROUP,LUCKNOW</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<hr>
+
+  <div class="ab">
+    <h1 align="center">OUR PARTNERS</h1>
+  </div>
+    <marquee>
+    <a href="https://www.primevideo.com/"><img src="gh.jpg"></a>
+    <a href="https://www.dlf.in/"><img src="hg.jpg"></a>
+    <a href="https://www.adityabirla.com/"><img src="birla.jpg"></a>
+   <a href="https://www.surya.edu.in/"> <img src="sgi.jpg"></a>
+    <a href="https://www.tata.com/"><img src="tata.jpg"></a>
+
+</marquee>
+  </div>
+<hr>
+<div class="jumbotron card card-image">
+ 
+ <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4" >
+      <a href="https://www.facebook.com/"><img src="f.png"></img></a><br><br>
+           <a href="https://www.pinterest.com/"><img src="k.jpg"></img></a><br><br>
+             <a href="https://www.magicbricks.com/"><img src="mb.jpg"></img></a><br><br>
+              <a href="https://www.olx.in/"><img src="olx.jpg"></img></a>
+              
+              
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4" >
+       <ul>
+              <li><a href="">Mumbai</a></li>
+              <li><a href="">Delhi</a></li>
+              <li><a href="">Chennai</a></li>
+              <li><a href="">Kolkata</a></li>
+              <li><a href="">Banglore</a></li>
+            </ul>
+            <ul>
+              <li><a href="">Chandigarh</a></li>
+              <li><a href="">Pune</a></li>
+              <li><a href="">Jaipur</a></li>
+              <li><a href="">Kochi</a></li>
+              <li><a href="">Ooty</a></li>
+            </ul>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+      <h5 class="fw-title">NEWSLETTER</h5>
+            <p>Subscribe your email to get the latest news and new offer also discount</p>
+            <form class="footer-newslatter-form">
+              <input type="text" placeholder="Email address">
+              <button><i class="fa fa-send"></i></button>
+            </form>
+          </div>
+  </div>
+</div>
+</body>
+
+</html>
